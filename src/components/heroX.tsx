@@ -1,5 +1,5 @@
 "use client";
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
 import { Button } from "./ui/button";
 
 export default function HeroX() {
@@ -20,7 +20,7 @@ export default function HeroX() {
 
       <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
         <div className="space-y-4">
-          <p className="text-primary text-lg font-medium">Hi, I'm</p>
+          <p className="text-primary text-lg font-medium">Hi, I&apos;m</p>
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight">
             <span className="bg-gradient-primary bg-clip-text text-transparent">
               John Developer

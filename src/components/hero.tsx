@@ -90,11 +90,11 @@ export default function Hero() {
               <h1 className="text-5xl md:text-6xl font-bold font-robotoMono mb-4">
                 <span className="text-primary">Hello,</span>
                 <br />
-                <span className="text-foreground">I'm a Developer</span>
+                <span className="text-foreground">I&apos;m a Developer</span>
               </h1>
               <p className="text-xl text-muted-foreground font-robotoMono mb-2">
                 <span className="text-secondary">{">"}</span> Full Stack
-                Engineer
+                Developer
               </p>
               <p className="text-lg text-muted-foreground font-robotoMono">
                 <span className="text-secondary">{">"}</span> Building scalable
@@ -108,7 +108,7 @@ export default function Hero() {
                 <div className="flex items-center gap-3 mb-2">
                   <Code2 className="h-5 w-5 text-primary" />
                   <span className="font-robotoMono text-2xl font-bold text-primary">
-                    50+
+                    40+
                   </span>
                 </div>
                 <p className="text-sm text-muted-foreground font-robotoMono">
@@ -120,7 +120,7 @@ export default function Hero() {
                 <div className="flex items-center gap-3 mb-2">
                   <Zap className="h-5 w-5 text-secondary" />
                   <span className="font-robotoMono text-2xl font-bold text-secondary">
-                    5+
+                    almost 1
                   </span>
                 </div>
                 <p className="text-sm text-muted-foreground font-robotoMono">
@@ -132,11 +132,11 @@ export default function Hero() {
                 <div className="flex items-center gap-3 mb-2">
                   <Coffee className="h-5 w-5 text-accent" />
                   <span className="font-robotoMono text-2xl font-bold text-accent">
-                    1000+
+                    Daily
                   </span>
                 </div>
                 <p className="text-sm text-muted-foreground font-robotoMono">
-                  Commits/Year
+                  contributor
                 </p>
               </div>
 
@@ -144,11 +144,11 @@ export default function Hero() {
                 <div className="flex items-center gap-3 mb-2">
                   <Terminal className="h-5 w-5 text-primary" />
                   <span className="font-robotoMono text-2xl font-bold text-primary">
-                    15+
+                    Learning
                   </span>
                 </div>
                 <p className="text-sm text-muted-foreground font-robotoMono">
-                  Tech Stack
+                  everyday new
                 </p>
               </div>
             </div>

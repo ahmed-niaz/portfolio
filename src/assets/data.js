@@ -7,24 +7,24 @@ export const codeLines = [
   "  constructor() {",
   "    this.name = 'Niaz';",
   "    this.title = 'Shopify Developer';",
-  "    this.experience = '3-5 years';",
+  "    this.experience = 'almost a year';",
   "    this.status = 'Available for hire';",
   "  }",
   "",
   "  currentStack() {",
   "    return {",
   "      frontend: ['React', 'TypeScript', 'Next.js'],",
-  "      backend: ['Node.js', 'Python', 'PostgreSQL'],",
-  "      tools: ['Docker', 'AWS', 'Git', 'CI/CD']",
+  "      backend: ['Node.js', 'PostgreSQL'],",
+  "      tools: ['Git', 'VS Code']",
   "    };",
   "  }",
   "",
   "  recentAchievements() {",
   "    return [",
-  "      '✓ Led team of 3 developers',",
-  "      '✓ Reduced API latency by 40%',",
-  "      '✓ Built 5+ production apps',",
-  "      '✓ 1000+ contributions this year'",
+  "      '✓ Built 40+ e-commerce client projects',",
+  "      '✓ Almost a year of professional experience',",
+  "      '✓  Trying to contribute everyday',",
+  "      ",
   "    ];",
   "  }",
   "}",
@@ -39,7 +39,7 @@ export const codeLines = [
 export const projects = [
   {
     id: "01",
-    title: "E-Commerce Platform",
+    title: "E-Commerce Platform [dummy]",
     description:
       "Full-stack marketplace with real-time inventory, payment processing, and admin dashboard. Handling 10K+ daily transactions.",
     tech: ["Next.js", "Stripe", "PostgreSQL", "Redis"],
@@ -57,7 +57,7 @@ const session = await stripe
   },
   {
     id: "02",
-    title: "Real-Time Analytics Dashboard",
+    title: "Real-Time Analytics Dashboard [dummy]",
     description:
       "Live data visualization platform processing 100K+ events/min with WebSocket connections and data aggregation.",
     tech: ["React", "D3.js", "Socket.io", "MongoDB"],
@@ -74,7 +74,7 @@ socket.on('metrics', (data) => {
   },
   {
     id: "03",
-    title: "API Gateway Service",
+    title: "API Gateway Service [dummy]",
     description:
       "Microservices architecture with rate limiting, authentication, and load balancing. 99.9% uptime SLA.",
     tech: ["Node.js", "Redis", "Docker", "AWS"],
@@ -92,7 +92,7 @@ const limiter = rateLimit({
   },
   {
     id: "04",
-    title: "CI/CD Automation Tool",
+    title: "CI/CD Automation Tool [dummy]",
     description:
       "DevOps pipeline automation reducing deployment time by 60%. Integrated with GitHub, Docker, and Kubernetes.",
     tech: ["Python", "Docker", "K8s", "GitHub Actions"],
@@ -113,31 +113,27 @@ def deploy(service):
 
 export const skillsData = {
   languages: [
-    { name: "JavaScript", level: 95 },
-    { name: "TypeScript", level: 90 },
-    { name: "Python", level: 85 },
-    { name: "Go", level: 70 },
-    { name: "SQL", level: 80 },
+    { name: "JavaScript" },
+    { name: "TypeScript" },
+    { name: "HTML5" },
+    { name: "CSS3" },
+    { name: "Liquid" },
   ],
-  frameworks: [
-    { name: "React", level: 95 },
-    { name: "Next.js", level: 85 },
-    { name: "Node.js", level: 90 },
-    { name: "Express", level: 90 },
-    { name: "FastAPI", level: 75 },
+  libraries: [
+    { name: "React.js" },
+    { name: "React Router DOM" },
+    { name: "Tailwind CSS" },
   ],
+  frameworks: [{ name: "Next.js" }, { name: "Express.js" }],
+  runtime: [{ name: "Node.js" }],
   tools: [
-    { name: "Git", level: 95 },
-    { name: "Docker", level: 85 },
-    { name: "AWS", level: 75 },
-    { name: "PostgreSQL", level: 85 },
-    { name: "Redis", level: 80 },
+    { name: "Git" },
+    { name: "GitHub" },
+    { name: "VS Code" },
+    { name: "Figma" },
+    { name: "Shopify" },
   ],
-  concepts: [
-    { name: "REST APIs", level: 95 },
-    { name: "Microservices", level: 80 },
-    { name: "CI/CD", level: 85 },
-    { name: "Testing", level: 90 },
-    { name: "System Design", level: 75 },
-  ],
+  databases: [{ name: "MongoDB" }, { name: "PostgreSQL" }],
+  orm: [{ name: "Mongoose" }, { name: "Prisma" }],
+  libraries: [{ name: "React Router DOM" }],
 };

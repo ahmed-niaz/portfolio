@@ -39,23 +39,12 @@ export default function Skills() {
               </div>
               <div className="pl-6 md:pl-12 space-y-4">
                 {skills.map((skill, idx) => (
-                  <div key={idx} className="group">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-primary group-hover:text-secondary transition-colors">
-                        {skill.name}
-                      </span>
-                      <span className="text-xs text-muted-foreground">
-                        {skill.level}%
-                      </span>
-                    </div>
-                    <div className="h-2 bg-[hsl(var(--muted))] rounded-full overflow-hidden">
-                      <div
-                        className="h-full bg-gradient-to-r from-primary to-secondary transition-all duration-1000 group-hover:shadow-[0_0_10px_hsl(var(--primary)/0.5)]"
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
-                    </div>
+                  <div key={idx} className="inline-block">
+                    <span className="text-primary hover:text-secondary transition-colors">
+                      {skill.name}
+                    </span>
                     {idx < skills.length - 1 && (
-                      <span className="text-muted-foreground text-xs">,</span>
+                      <span className="text-muted-foreground mx-2">,</span>
                     )}
                   </div>
                 ))}
@@ -89,11 +78,13 @@ export default function Skills() {
             </div>
             <div className="flex items-center gap-2">
               <span className="text-muted-foreground">Experience:</span>
-              <span className="text-primary">5+ years</span>
+              <span className="text-primary">almost a year</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-muted-foreground">Projects:</span>
-              <span className="text-primary">50+ completed</span>
+              <span className="text-primary">
+                40+ successful Shopify projects delivered
+              </span>
             </div>
           </div>
         </div>

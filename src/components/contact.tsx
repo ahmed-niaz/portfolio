@@ -14,7 +14,6 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitted(true);
-    // Handle form submission
   };
 
   return (
@@ -110,8 +109,11 @@ export default function Contact() {
                 <div className="text-center py-8 font-mono">
                   <div className="text-primary text-6xl mb-4">✓</div>
                   <div className="text-primary">
-                    <span className="text-secondary">return</span> "Message sent
-                    successfully!";
+                    <span className="text-secondary">return</span>{" "}
+                    <span className="text-primary">
+                      &quot;Message sent successfully!&quot;
+                    </span>
+                    ;
                   </div>
                 </div>
               )}
@@ -127,11 +129,11 @@ export default function Contact() {
                 <span className="text-muted-foreground">=</span>
               </div>
               <a
-                href="mailto:dev@example.com"
+                href="mailto:niazahmed.an@gmail.com"
                 className="text-primary hover:text-secondary transition-colors flex items-center gap-2"
               >
                 <Mail className="h-5 w-5" />
-                "dev@example.com"
+                &quot;niazahmed.an@gmail.com&quot;
               </a>
             </div>
 
@@ -144,22 +146,22 @@ export default function Contact() {
 
               <div className="space-y-3 pl-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/ahmed-niaz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-primary hover:text-secondary transition-colors"
                 >
                   <FolderGit2 className="h-5 w-5" />
-                  <span>github: "/username"</span>
+                  <span>github: `/ahmed-niaz`</span>
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/ahmed-niaz/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-primary hover:text-secondary transition-colors"
                 >
                   <Workflow className="h-5 w-5" />
-                  <span>linkedin: "/in/username"</span>
+                  <span>linkedin: `/in/ahmed-niaz`</span>
                 </a>
               </div>
 

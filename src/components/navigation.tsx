@@ -54,7 +54,7 @@ export default function Navigation() {
             </button>
             <button
               className="font-robotoMono cursor-pointer"
-              onClick={() => scrollToSection("skills")}
+              onClick={() => scrollToSection("contact")}
             >
               .contact()
             </button>
